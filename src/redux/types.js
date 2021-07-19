@@ -1,0 +1,82 @@
+
+
+//USER REDUCER TYPES 
+export const SET_AUTHENTICATED =  "SET_AUTHENTICATED";
+export const SET_UNAUTHENTICATED =  "SET_UNAUTHENTICATED";
+export const SET_USER =  "SET_USER";
+export const LOADING_USER = "LOADING_USER";
+export const SET_LOADING_FALSE = "SET_LOADING_FALSE";
+
+
+
+//UI REDUCER TYPES
+export const SET_ERRORS = "SET_ERRORS";
+export const LOADING_UI = "LOADING_UI";
+export const CLEAR_ERRORS = "CLEAR_ERRORS";
+
+
+//DATA REDUCER TYPES
+
+
+
+export const SET_DISTANCE_AWAY = "SET_DISTANCE_AWAY";
+export const SET_ALL_JOB_POSTS = "SET_ALL_JOB_POSTS";
+
+export const SET_STATE = "SET_STATE";
+export const SET_COORDINATES = "SET_COORDINATES";
+export const SET_SEARCH_CATEGORY = "SET_SEARCH_CATEGORY";
+
+
+
+
+
+
+ export const LOADING_DATA = "LOADING_DATA";
+ export const SET_REPLYS_TO_JOB_POST = "SET_REPLYS_TO_JOB_POST";
+ export const REPLY_TO_JOB_POST = "REPLY_TO_JOB_POST";
+ export const SET_MY_JOB_POSTS = "SET_MY_JOB_POSTS";
+ export const DELETE_JOB_POST = "DELETE_JOB_POST";
+ export const POST_JOB_POST = "POST_JOB_POST";
+
+
+export const SET_JOB_POST = "SET_JOB_POST";
+export const STOP_LOADING_UI = "STOP_LOADING_UI";
+
+
+////////lesson 38////////////
+export const MARK_NOTIFICATIONS_READ = "MARK_NOTIFICATIONS_READ";
+////////lesson 38////////////
+
+
+    export const   USER_LOGIN = 'USER_LOGIN';
+    export const  USER_LOGOUT = 'USER_LOGOUT';
+
+
+
+    export const GET_REALTIME_USERS = 'GET_REALTIME_USERS';
+    export const GET_REALTIME_MESSAGES = 'GET_REALTIME_MESSAGES';
+    export const GET_REALTIME_CONVERSATIONS = 'GET_REALTIME_CONVERSATIONS';
+    export const GET_CONVERSATIONS  = "GET_CONVERSATIONS";
+    export const SET_OTHER_CHAT_USER = "SET_OTHER_CHAT_USER";
+    export const GET_MESSAGES = "GET_MESSAGES";
+    export const UPDATE_USER = "UPDATE_USER";
+    export const SET_ACCOUNTS = "SET_ACCOUNTS";
+
+
+
+    export const UPDATE_USER_INFO = "UPDATE_USER_INFO";
+
+
+
+    export const SET_USERS_JOB_POSTS = "SET_USERS_JOB_POSTS";
+    
+
+
+    export const DELETE_CONVERSATION = "DELETE_CONVERSATION";
+    
+
+
+    export const DEACTIVATE_ACCOUNT = "DEACTIVATE_ACCOUNT";
+    export const ACTIVATE_ACCOUNT = "ACTIVATE_ACCOUNT";
+    
+    

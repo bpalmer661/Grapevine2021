@@ -1,0 +1,260 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(245, 245, 245);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+/* upload image lesson */
+.progress-bar{
+  height: 5px;
+  background: rgb(74, 84, 224);
+  margin-top: 20px;
+}
+
+/* upload image lesson */
+.img-grid{
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+/* upload image lesson */
+.img-wrap{
+  overflow: hidden;
+  height: 0;
+  height: 400px;
+  /* padding controls height , will always be perfectyl sqaure regardless of width*/
+  padding: 0% 0;
+  position: relative;
+  opacity: 0.8;
+  display: "flex",
+}
+
+
+/* upload image lesson */
+.img-wrap img{
+  height: 500px;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 150%;
+  position: "absolute";
+  top: 0;
+  left: 0;
+}
+
+
+
+.img-wrap .close {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  z-index: 100;
+  background-color: white;
+  width: 44;
+   height: 44;
+   border-radius: 44/2
+}
+
+/* upload image lesson */
+/* modal styles */
+.backdrop{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgb(0, 0, 0,0.5);
+}
+
+.backdrop img{
+  display: block;
+  max-width: 60%;
+  max-height: 80%;
+  margin: 100px auto;
+  box-shadow: 3px 5px 7px rgb(0, 0, 0,0.5); 
+   border: 3px solid white;
+}
+
+/* upload image button */
+.uploadImageDiv {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.uploadImageDiv h1 {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.uploadImageDiv img {
+  width: 50%;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+}
+
+.uploadImageDiv span{
+  width: 100px;
+  /* background-color: rgb(53, 34, 121); */
+}
+
+
+
+
+
+
+
+
+.JobPostUploadImageDiv {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.JobPostUploadImageDiv h1 {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.JobPostUploadImageDiv img {
+  width: 50%;
+  margin: 0 auto;
+  height: 50px;
+  width: 50px;
+}
+
+.JobPostUploadImageDiv span{
+  width: 100px;
+  /* background-color: rgb(53, 34, 121); */
+}
+
+
+.postJobP {
+  
+  width: 50%;
+  margin-bottom: 35px;
+  padding:50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+.root {
+      padding: 10;
+      margin-top: 20;
+      display: 'flex';
+      flex-wrap: 'wrap';
+      justify-content: 'space-around';
+     overflow: 'hidden';
+   }
+
+   .gridList {
+      flex-wrap: 'nowrap';
+      transform: 'translateZ(0)';
+     }
+    
+
+
+     .postJobTitle{
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+     }
+
+
+
+
+
+
+    /* postJobPostPage Image grid Styling */   
+.job-post-img-grid{
+  /* background-color: aqua; */
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.job-post-img-wrap{
+  overflow: hidden;
+  height: 0;
+  height: 150px;
+  /* padding controls height , will always be perfectyl sqaure regardless of width*/
+  padding: 0% 0;
+  position: relative;
+  opacity: 0.8;
+}
+
+
+.job-post-img-wrap img{
+  height: 150px;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 150%;
+  position: "absolute";
+  top: 0;
+  left: 0;
+}
+
+
+.placesAutoComplete{
+  width: 50%;
+      margin: 0 auto;
+      text-align: center;
+}
+
+
+
+
+
+.img-wrap{
+  /* overflow: hidden;
+  height: 0;
+  height: 400px; */
+  /* padding controls height , will always be perfectyl sqaure regardless of width*/
+  /* padding: 0% 0;
+  position: relative;
+  opacity: 0.8; */
+  display: "flex",
+}
+
+/* upload image lesson */
+.img-wrap-two img{
+  /* height: 100px;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 150%;
+  position: "absolute";
+  top: 0;
+  left: 0; */
+
+
+  align-content: "center";
+  border: "none";
+  max-width: 100;
+  height: 100;
+  object-fit: 'cover';
+  display: "block";
+  margin-left: "auto";
+  margin-right: "auto";
+}
+
+
+

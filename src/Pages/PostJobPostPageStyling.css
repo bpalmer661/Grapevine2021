@@ -1,0 +1,135 @@
+ 
+  .editProfileImgDiv {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 140px;
+    text-align: center;
+    /* margin-bottom: 100px; */
+  }
+
+
+  .editProfileImgDiv img {
+    width: 50%;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    object-fit: 'cover';
+    max-width: '100%';
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .editProfilePicture {
+    margin: 0 auto; 
+    position: absolute;
+    left: 680px;
+    top: 160px;
+    /* background-color: cadetblue; */
+  }
+
+  .usernameTitleLink {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+
+  .placesAutoCompleteContainer{
+    width: 96%;
+    margin: 0 auto;
+    /* margin-top: 140px; */
+    text-align: center;
+  }
+
+  .saveButton{
+    /* width: 96%; */
+    margin: 0 auto;
+    margin-bottom: 100px; 
+    text-align: center;
+  font-size: large;
+  }
+
+
+  
+
+
+.UploadImageDiv {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
+  .UploadImageDiv h1 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .UploadImageDiv img {
+    width: 50%;
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .UploadImageDiv span{
+    width: 100px;
+    /* background-color: rgb(53, 34, 121); */
+  }
+
+ /* postJobPostPage Image grid Styling */   
+ .img-grid{
+    /* background-color: aqua; */
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+
+  
+  .img-wrap{
+    overflow: hidden;
+    height: 0;
+    height: 150px;
+    /* padding controls height , will always be perfectyl sqaure regardless of width*/
+    padding: 0% 0;
+    position: relative;
+    opacity: 0.8;
+  }
+  
+  
+  .img-wrap img{
+    height: 150px;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 150%;
+    position: "absolute";
+    top: 0;
+    left: 0;
+  }
+  
+
+.address{
+    color: gray;
+}
+  
+.search-bar{
+width: 800px;
+}
+
+
+
+.addAnImage{
+    margin-top: -100px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.submit{
+    width: 50%;
+    margin: 0 auto;
+}

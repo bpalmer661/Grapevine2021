@@ -1,0 +1,14 @@
+.complete-search-bar{
+    display: flex;
+}
+
+
+.search-bar{
+    height: 100px;
+    width: 1000px;
+}
+
+
+.category-input{
+    margin-right: 20px;
+}
